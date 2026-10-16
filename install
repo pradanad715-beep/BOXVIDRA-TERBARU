@@ -1,3 +1,5 @@
+echo "kita mulai instalasinya yaa..."
+sleep 2
 #!/bin/bash
 pkg install root-repo -y
 
@@ -53,7 +55,7 @@ read i
 case "$i" in
 1)
     echo -e "\e[36m[+] Installing Boxvidra Box86 build\e[0m"
-    wget -q --show-progress -O /data/data/com.termux/files/usr/glibc.box86.tar.xz https://github.com/Chrisklucik0/BOXVIDRA-EMULATOR/releases/download/Mangohub/glibc.box86.tar.xz
+    wget -q --show-progress -O /data/data/com.termux/files/usr/glibc.box86.tar.xz https://github.com/pradanad715-beep/BOXVIDRA-TERBARU/releases/download/Glibc/glibc.box86.tar.xz
     sleep 2
     echo -e "\e[33m[i] Extracting Box86 build glibc...\e[0m"
     tar -xf /data/data/com.termux/files/usr/glibc.box86.tar.xz -C /data/data/com.termux/files/usr/
@@ -68,7 +70,7 @@ case "$i" in
     ;;
 2)
     echo -e "\e[36m[+] Installing Boxvidra Wow64 build\e[0m"
-    wget -q --show-progress -O /data/data/com.termux/files/usr/glibc.wow64.tar.xz https://github.com/Chrisklucik0/BOXVIDRA-EMULATOR/releases/download/Mangohub/glibc.wow64.tar.xz
+    wget -q --show-progress -O /data/data/com.termux/files/usr/glibc.wow64.tar.xz https://github.com/pradanad715-beep/BOXVIDRA-TERBARU/releases/download/Glibc/glibc.wow64.tar.xz
     sleep 2
     echo -e "\e[33m[i] Extracting Wow64 build glibc...\e[0m"
     tar -xf /data/data/com.termux/files/usr/glibc.wow64.tar.xz -C /data/data/com.termux/files/usr/
@@ -161,7 +163,7 @@ case "$i" in
 1)
    echo -n "Installing Windows 10 theme (Light) ..."
 
-   wget -q --show-progress -O Windows.10.Light.tar.xz https://github.com/Chrisklucik0/BOXVIDRA-EMULATOR/releases/download/Themes/Windows.10.Light.tar.xz
+   wget -q --show-progress -O Windows.10.Light.tar.xz https://github.com/pradanad715-beep/BOXVIDRA-TERBARU/releases/download/Themes/Windows.10.Light.tar.xz
    tar -xf Windows.10.Light.tar.xz
    cd 'Windows 10 Light'
    cp -r .icons /data/data/com.termux/files/home/
@@ -210,7 +212,7 @@ case "$i" in
 3)
    echo -n "Installing Windows 10 theme (Red, Gaming) ..."
 
-   wget -q --show-progress -O Windows.10.Red.tar.xz https://github.com/Chrisklucik0/BOXVIDRA-EMULATOR/releases/download/Themes/Windows.10.Red.tar.xz
+   wget -q --show-progress -O Windows.10.Red.tar.xz https://github.com/pradanad715-beep/BOXVIDRA-TERBARU/releases/download/Themes/Windows.10.Red.tar.xz
    tar -xf Windows.10.Red.tar.xz
    cd 'Windows 10 Red'
    cp -r .icons /data/data/com.termux/files/home/
@@ -263,7 +265,7 @@ esac
 clear
 sleep 2
 
-echo -e "\e[32m[âœ“] Boxvidra Emulator Installed Successfully.\e[0m"
+echo -e "\e[32m[beres bray] Boxvidra Emulator Installed Successfully.\e[0m"
 echo -e "\n"
 echo "Type \"boxvidra\" To Start"
 
